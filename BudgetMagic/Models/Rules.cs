@@ -8,11 +8,11 @@ namespace BudgetMagic.Models
     public class Rules
     {
         public int RulesID { get; set; }
-        public virtual Format Format { get; set; }
         public int MainboardCardLimit { get; set; }
         public int MainboardCardMinimum { get; set; }
         public int SideboardCardLimit { get; set; }
         public bool HasCommanders { get; set; }
+        public bool IsSignleton { get; set; }
         public int MinCMC { get; set; }
         public int MaxCMC { get; set; }
         public int MaxUncommonCards { get; set; }

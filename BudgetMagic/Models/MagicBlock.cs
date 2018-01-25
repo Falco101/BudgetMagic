@@ -7,7 +7,7 @@ namespace BudgetMagic.Models
 {
     public class MagicBlock
     {
-        public int BlockID { get; set; }
+        public int MagicBlockID { get; set; }
         public string BlockName { get; set; }
         public virtual ICollection<MagicSet> SetsInBlock { get; set; }
     }

@@ -7,7 +7,7 @@ namespace BudgetMagic.Models
 {
     public class MagicSet
     {
-        public int SetID { get; set; }
+        public int MagicSetID { get; set; }
         public string SetName { get; set; }
         public virtual MagicBlock SetBlock { get; set; }
     }

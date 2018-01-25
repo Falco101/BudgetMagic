@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DeckController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -166,6 +167,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\CardDataDBContext.cs" />
+    <Compile Include="Models\CardDataDBContextInitiator.cs" />
     <Compile Include="Models\Currency.cs" />
     <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Format.cs" />
@@ -222,6 +224,11 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Deck\Create.cshtml" />
+    <Content Include="Views\Deck\Delete.cshtml" />
+    <Content Include="Views\Deck\Details.cshtml" />
+    <Content Include="Views\Deck\Edit.cshtml" />
+    <Content Include="Views\Deck\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

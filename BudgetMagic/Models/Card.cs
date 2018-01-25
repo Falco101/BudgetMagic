@@ -9,6 +9,7 @@ namespace BudgetMagic.Models
     {
         public int CardID { get; set; }
         public string Name { get; set; }
+        public byte[] CardImage { get; set; }
         public string ManaCost { get; set; }
         public int CMC { get; set; }
         public string Type { get; set; }
