@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace BudgetMagic.Models
 {
-    public class CardDataDBContextInitializer : CreateDatabaseIfNotExists<CardDataDBContext>
+    public class CardDataDBContextInitializer : DropCreateDatabaseIfModelChanges<CardDataDBContext>
     {
         private CardDataDBContext context = new CardDataDBContext();
 

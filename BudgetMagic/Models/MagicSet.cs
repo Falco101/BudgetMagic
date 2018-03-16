@@ -9,6 +9,9 @@ namespace BudgetMagic.Models
     {
         public int MagicSetID { get; set; }
         public string SetName { get; set; }
+        public string SetUri { get; set; }
+        public string SetSearchUri { get; set; }
+        public string ScryfallSetUri { get; set; }
         public virtual MagicBlock SetBlock { get; set; }
     }
 }

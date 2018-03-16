@@ -50,6 +50,8 @@ namespace BudgetMagic.Controllers
         {
             if (ModelState.IsValid)
             {
+                deck.CreatedDate = DateTime.Now;
+                deck.LastUpdated = DateTime.Now;
                 db.Decks.Add(deck);
                 db.SaveChanges();
                 return RedirectToAction("Index");
